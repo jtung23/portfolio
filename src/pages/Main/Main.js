@@ -1,15 +1,27 @@
+import React, {Component} from "react";
 import './Main.css';
-import React from "react";
+import Background from './bnw-me-brisk.jpg';
 
-const Main = props => (
-	<div className="main">
-		<h1>
-			Jonathan Tung
-		</h1>
-		<p>
+const styles = {
+  content: {
+    width: '100%',
+    minHeight : '100vh',
+    background: 'Url('+Background+')',
+    backgroundRepeat: "no-repeat",
+    backgroundSize: "100%"
+  }
+}
+class Main extends Component {
+	render() {
+		return (
+			<div className="main" style={styles.content} >
+				<div className="navbar">
 
-		</p>
-	</div>
-)
+				</div>
+			</div>
+		)
+	}
+
+}
 
 export default Main
