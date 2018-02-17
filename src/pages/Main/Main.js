@@ -15,9 +15,6 @@ class Main extends Component {
 	render() {
 		return (
 			<div className="main" style={styles.content} >
-				<div className="navbar">
-
-				</div>
 			</div>
 		)
 	}

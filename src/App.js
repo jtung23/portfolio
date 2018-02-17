@@ -3,6 +3,11 @@ import logo from './logo.svg';
 import './App.css';
 import Main from './pages/Main';
 import HeaderBar from './components/HeaderBar';
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom'
+import About from './pages/About';
+import Portfolio from './pages/Portfolio';
+import Bbq from './pages/Bbq';
+
 
 const style = {
   header: {
@@ -12,10 +17,15 @@ const style = {
 class App extends Component {
   render() {
     return (
-      <div>
-        <HeaderBar className="headerbar" style={style.header} />
-        <Main style={style.header} />
-      </div>
+      <Router>
+        <div>
+          <HeaderBar className="headerbar" style={style.header} />
+          <Route exact path="/" component={Main}/>
+          <Route path="/about" component={About}/>
+          <Route path="/portfolio" component={Portfolio}/>
+          <Route path="/bbq" component={Bbq}/>
+        </div>
+      </Router>  
     );
   }
 }
