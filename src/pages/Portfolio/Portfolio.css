@@ -1,3 +1,9 @@
 .main {
 	background-color: rgb(214, 79, 79);
 }
+
+.projects-div {
+	display: inline-block;
+	width: 20%;
+	background-color: white;
+}
