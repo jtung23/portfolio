@@ -29,7 +29,7 @@ class About extends Component {
 						<div className="text profsummary-div">
 							<p className="profsummary">
 								I am an Oakland native with a background in Economics from University of California Riverside.
-								With a passion for Javascript and Python, I utilize my skills to help others achieve their dreams
+								Passionate about Javascript and Python, I utilize my skills to help others achieve their dreams
 								and to create socially beneficial products.
 								<br />
 								When I am not coding, I am consistently striving to become a pitmaster, hosting community backyard BBQs and perfecting the brisket.

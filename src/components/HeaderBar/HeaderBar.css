@@ -9,7 +9,9 @@
 .header-div {
 	background-image: url('croppedlogo.jpg');
 	background-size: auto;
-	border-bottom-style: inset;
+	border-bottom-style: outset;
+	border-bottom-color: #540404;
+	border-bottom-width: 5px;
 }
 
 .header {
