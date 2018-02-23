@@ -1,6 +1,6 @@
 
 import React, {Component} from "react";
-import Background from '../Main/bnw-me-brisk.jpg';
+import Background from '../../images/bnw-me-brisk.jpg';
 
 const styles = {
   content: {

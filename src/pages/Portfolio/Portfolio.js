@@ -1,5 +1,5 @@
 import React, {Component} from "react";
-import Background from '../Main/bnw-me-brisk.jpg';
+import Background from '../../images/bnw-me-brisk.jpg';
 import './Portfolio.css';
 import {Animated} from "react-animated-css";
 import Projects from '../../components/Projects';

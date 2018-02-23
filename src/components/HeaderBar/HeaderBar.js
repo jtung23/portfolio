@@ -1,6 +1,5 @@
 import React from 'react';
 import './HeaderBar.css';
-import brisketbg from './croppedlogo.jpg';
 import {Link} from 'react-router-dom';
 
 const HeaderBar = props => (

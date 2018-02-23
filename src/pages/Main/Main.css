@@ -1,0 +1,16 @@
+.mainAbout {
+	width: 25%;
+	height:25%;
+	margin: auto;
+}
+
+.mainImage {
+	width: 50%;
+	height: 50%;
+	margin: auto;
+	display: inline;
+}
+
+.mainBio {
+	display: inline;
+}
