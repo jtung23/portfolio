@@ -10,7 +10,13 @@ const styles = {
     minHeight : '100vh',
     background: 'Url('+Background+')',
     backgroundRepeat: "no-repeat",
-    backgroundSize: "100%"
+    backgroundSize: "100%",
+    position: 'relative'
+  },
+  image: {
+    height: '25%',
+    width: '30%',
+    margin: '5px'
   }
 }
 class Main extends Component {
@@ -18,10 +24,16 @@ class Main extends Component {
 		return (
 			<div className="main" style={styles.content} >
         <div className="mainAbout">
-          <Image className="mainImage" image={Heashot} />
+          <Image className="mainImage" image={Heashot} style={styles.image} />
           <div className="mainBio">
+            <h1>
+              Jonathan Tung
+            </h1>
             <p>
-              Full-Stack Web Developer with a passion for Javascript, Python, and Smoking Meat
+              Portfolio
+            </p>
+            <p>
+              BBQ
             </p>
           </div>
         </div>

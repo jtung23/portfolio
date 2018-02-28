@@ -1,7 +1,11 @@
 .mainAbout {
-	width: 25%;
-	height:25%;
+	width: 50%;
+	height: 50%;
 	margin: auto;
+	background-color: white;
+	overflow: hidden;
+	position: relative;
+	top: 25vh;
 }
 
 .mainImage {
